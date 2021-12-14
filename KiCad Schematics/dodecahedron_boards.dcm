@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LED_RBGA
+D RGB LED, red/blue/green/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+#End Doc Library

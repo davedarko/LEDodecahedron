@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name dodecahedron_n4)(type KiCad)(uri ${KIPRJMOD}/dodecahedron_n4.pretty)(options "")(descr ""))
+)

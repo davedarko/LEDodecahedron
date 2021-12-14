@@ -1,0 +1,1722 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L dodecahedron_boards:LED_RBGA D2
+U 1 1 61B22E33
+P 2650 3150
+F 0 "D2" H 2650 3647 50  0000 C CNN
+F 1 "LED_RBGA" H 2650 3556 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 2650 3100 50  0001 C CNN
+F 3 "~" H 2650 3100 50  0001 C CNN
+	1    2650 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D7
+U 1 1 61B24CD0
+P 3200 4050
+F 0 "D7" H 3200 4547 50  0000 C CNN
+F 1 "LED_RBGA" H 3200 4456 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 3200 4000 50  0001 C CNN
+F 3 "~" H 3200 4000 50  0001 C CNN
+	1    3200 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D12
+U 1 1 61B296E4
+P 3200 3150
+F 0 "D12" H 3200 3647 50  0000 C CNN
+F 1 "LED_RBGA" H 3200 3556 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 3200 3100 50  0001 C CNN
+F 3 "~" H 3200 3100 50  0001 C CNN
+	1    3200 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D17
+U 1 1 61B296EA
+P 4850 4050
+F 0 "D17" H 4850 4547 50  0000 C CNN
+F 1 "LED_RBGA" H 4850 4456 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 4850 4000 50  0001 C CNN
+F 3 "~" H 4850 4000 50  0001 C CNN
+	1    4850 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D22
+U 1 1 61B2E0E4
+P 3750 3150
+F 0 "D22" H 3750 3647 50  0000 C CNN
+F 1 "LED_RBGA" H 3750 3556 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 3750 3100 50  0001 C CNN
+F 3 "~" H 3750 3100 50  0001 C CNN
+	1    3750 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D27
+U 1 1 61B2E0EA
+P 6500 4050
+F 0 "D27" H 6500 4547 50  0000 C CNN
+F 1 "LED_RBGA" H 6500 4456 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 6500 4000 50  0001 C CNN
+F 3 "~" H 6500 4000 50  0001 C CNN
+	1    6500 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D32
+U 1 1 61B2E0F0
+P 4300 3150
+F 0 "D32" H 4300 3647 50  0000 C CNN
+F 1 "LED_RBGA" H 4300 3556 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 4300 3100 50  0001 C CNN
+F 3 "~" H 4300 3100 50  0001 C CNN
+	1    4300 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D37
+U 1 1 61B2E0F6
+P 8150 4050
+F 0 "D37" H 8150 4547 50  0000 C CNN
+F 1 "LED_RBGA" H 8150 4456 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 8150 4000 50  0001 C CNN
+F 3 "~" H 8150 4000 50  0001 C CNN
+	1    8150 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D42
+U 1 1 61B3069E
+P 4850 3150
+F 0 "D42" H 4850 3647 50  0000 C CNN
+F 1 "LED_RBGA" H 4850 3556 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 4850 3100 50  0001 C CNN
+F 3 "~" H 4850 3100 50  0001 C CNN
+	1    4850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D47
+U 1 1 61B306A4
+P 9800 4050
+F 0 "D47" H 9800 4547 50  0000 C CNN
+F 1 "LED_RBGA" H 9800 4456 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 9800 4000 50  0001 C CNN
+F 3 "~" H 9800 4000 50  0001 C CNN
+	1    9800 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D3
+U 1 1 61B3A252
+P 5400 3150
+F 0 "D3" H 5400 3647 50  0000 C CNN
+F 1 "LED_RBGA" H 5400 3556 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 5400 3100 50  0001 C CNN
+F 3 "~" H 5400 3100 50  0001 C CNN
+	1    5400 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D8
+U 1 1 61B3A258
+P 8700 4950
+F 0 "D8" H 8700 5447 50  0000 C CNN
+F 1 "LED_RBGA" H 8700 5356 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 8700 4900 50  0001 C CNN
+F 3 "~" H 8700 4900 50  0001 C CNN
+	1    8700 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D13
+U 1 1 61B3A25E
+P 6500 3150
+F 0 "D13" H 6500 3647 50  0000 C CNN
+F 1 "LED_RBGA" H 6500 3556 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 6500 3100 50  0001 C CNN
+F 3 "~" H 6500 3100 50  0001 C CNN
+	1    6500 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D18
+U 1 1 61B3A264
+P 2100 5850
+F 0 "D18" H 2100 6347 50  0000 C CNN
+F 1 "LED_RBGA" H 2100 6256 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 2100 5800 50  0001 C CNN
+F 3 "~" H 2100 5800 50  0001 C CNN
+	1    2100 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D23
+U 1 1 61B3A26A
+P 7600 3150
+F 0 "D23" H 7600 3647 50  0000 C CNN
+F 1 "LED_RBGA" H 7600 3556 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 7600 3100 50  0001 C CNN
+F 3 "~" H 7600 3100 50  0001 C CNN
+	1    7600 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D28
+U 1 1 61B3A270
+P 4300 5850
+F 0 "D28" H 4300 6347 50  0000 C CNN
+F 1 "LED_RBGA" H 4300 6256 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 4300 5800 50  0001 C CNN
+F 3 "~" H 4300 5800 50  0001 C CNN
+	1    4300 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D33
+U 1 1 61B3A276
+P 8700 3150
+F 0 "D33" H 8700 3647 50  0000 C CNN
+F 1 "LED_RBGA" H 8700 3556 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 8700 3100 50  0001 C CNN
+F 3 "~" H 8700 3100 50  0001 C CNN
+	1    8700 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D38
+U 1 1 61B3A27C
+P 6500 5850
+F 0 "D38" H 6500 6347 50  0000 C CNN
+F 1 "LED_RBGA" H 6500 6256 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 6500 5800 50  0001 C CNN
+F 3 "~" H 6500 5800 50  0001 C CNN
+	1    6500 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D43
+U 1 1 61B3A282
+P 9800 3150
+F 0 "D43" H 9800 3647 50  0000 C CNN
+F 1 "LED_RBGA" H 9800 3556 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 9800 3100 50  0001 C CNN
+F 3 "~" H 9800 3100 50  0001 C CNN
+	1    9800 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D48
+U 1 1 61B3A288
+P 8700 5850
+F 0 "D48" H 8700 6347 50  0000 C CNN
+F 1 "LED_RBGA" H 8700 6256 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 8700 5800 50  0001 C CNN
+F 3 "~" H 8700 5800 50  0001 C CNN
+	1    8700 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D4
+U 1 1 61B44D58
+P 5950 3150
+F 0 "D4" H 5950 3647 50  0000 C CNN
+F 1 "LED_RBGA" H 5950 3556 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 5950 3100 50  0001 C CNN
+F 3 "~" H 5950 3100 50  0001 C CNN
+	1    5950 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D9
+U 1 1 61B44D5E
+P 9250 4950
+F 0 "D9" H 9250 5447 50  0000 C CNN
+F 1 "LED_RBGA" H 9250 5356 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 9250 4900 50  0001 C CNN
+F 3 "~" H 9250 4900 50  0001 C CNN
+	1    9250 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D14
+U 1 1 61B44D64
+P 7050 3150
+F 0 "D14" H 7050 3647 50  0000 C CNN
+F 1 "LED_RBGA" H 7050 3556 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 7050 3100 50  0001 C CNN
+F 3 "~" H 7050 3100 50  0001 C CNN
+	1    7050 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D19
+U 1 1 61B44D6A
+P 2650 5850
+F 0 "D19" H 2650 6347 50  0000 C CNN
+F 1 "LED_RBGA" H 2650 6256 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 2650 5800 50  0001 C CNN
+F 3 "~" H 2650 5800 50  0001 C CNN
+	1    2650 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D24
+U 1 1 61B44D70
+P 8150 3150
+F 0 "D24" H 8150 3647 50  0000 C CNN
+F 1 "LED_RBGA" H 8150 3556 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 8150 3100 50  0001 C CNN
+F 3 "~" H 8150 3100 50  0001 C CNN
+	1    8150 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D29
+U 1 1 61B44D76
+P 4850 5850
+F 0 "D29" H 4850 6347 50  0000 C CNN
+F 1 "LED_RBGA" H 4850 6256 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 4850 5800 50  0001 C CNN
+F 3 "~" H 4850 5800 50  0001 C CNN
+	1    4850 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D34
+U 1 1 61B44D7C
+P 9250 3150
+F 0 "D34" H 9250 3647 50  0000 C CNN
+F 1 "LED_RBGA" H 9250 3556 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 9250 3100 50  0001 C CNN
+F 3 "~" H 9250 3100 50  0001 C CNN
+	1    9250 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D39
+U 1 1 61B44D82
+P 7050 5850
+F 0 "D39" H 7050 6347 50  0000 C CNN
+F 1 "LED_RBGA" H 7050 6256 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 7050 5800 50  0001 C CNN
+F 3 "~" H 7050 5800 50  0001 C CNN
+	1    7050 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D44
+U 1 1 61B44D88
+P 10350 3150
+F 0 "D44" H 10350 3647 50  0000 C CNN
+F 1 "LED_RBGA" H 10350 3556 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 10350 3100 50  0001 C CNN
+F 3 "~" H 10350 3100 50  0001 C CNN
+	1    10350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D49
+U 1 1 61B44D8E
+P 9250 5850
+F 0 "D49" H 9250 6347 50  0000 C CNN
+F 1 "LED_RBGA" H 9250 6256 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 9250 5800 50  0001 C CNN
+F 3 "~" H 9250 5800 50  0001 C CNN
+	1    9250 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D5
+U 1 1 61B4ED90
+P 2100 4050
+F 0 "D5" H 2100 4547 50  0000 C CNN
+F 1 "LED_RBGA" H 2100 4456 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 2100 4000 50  0001 C CNN
+F 3 "~" H 2100 4000 50  0001 C CNN
+	1    2100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D10
+U 1 1 61B4ED96
+P 9800 4950
+F 0 "D10" H 9800 5447 50  0000 C CNN
+F 1 "LED_RBGA" H 9800 5356 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 9800 4900 50  0001 C CNN
+F 3 "~" H 9800 4900 50  0001 C CNN
+	1    9800 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D15
+U 1 1 61B4ED9C
+P 3750 4050
+F 0 "D15" H 3750 4547 50  0000 C CNN
+F 1 "LED_RBGA" H 3750 4456 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 3750 4000 50  0001 C CNN
+F 3 "~" H 3750 4000 50  0001 C CNN
+	1    3750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D20
+U 1 1 61B4EDA2
+P 3200 5850
+F 0 "D20" H 3200 6347 50  0000 C CNN
+F 1 "LED_RBGA" H 3200 6256 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 3200 5800 50  0001 C CNN
+F 3 "~" H 3200 5800 50  0001 C CNN
+	1    3200 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D25
+U 1 1 61B4EDA8
+P 5450 4050
+F 0 "D25" H 5450 4547 50  0000 C CNN
+F 1 "LED_RBGA" H 5450 4456 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 5450 4000 50  0001 C CNN
+F 3 "~" H 5450 4000 50  0001 C CNN
+	1    5450 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D30
+U 1 1 61B4EDAE
+P 5400 5850
+F 0 "D30" H 5400 6347 50  0000 C CNN
+F 1 "LED_RBGA" H 5400 6256 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 5400 5800 50  0001 C CNN
+F 3 "~" H 5400 5800 50  0001 C CNN
+	1    5400 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D35
+U 1 1 61B4EDB4
+P 7050 4050
+F 0 "D35" H 7050 4547 50  0000 C CNN
+F 1 "LED_RBGA" H 7050 4456 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 7050 4000 50  0001 C CNN
+F 3 "~" H 7050 4000 50  0001 C CNN
+	1    7050 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D40
+U 1 1 61B4EDBA
+P 7600 5850
+F 0 "D40" H 7600 6347 50  0000 C CNN
+F 1 "LED_RBGA" H 7600 6256 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 7600 5800 50  0001 C CNN
+F 3 "~" H 7600 5800 50  0001 C CNN
+	1    7600 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D45
+U 1 1 61B4EDC0
+P 8700 4050
+F 0 "D45" H 8700 4547 50  0000 C CNN
+F 1 "LED_RBGA" H 8700 4456 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 8700 4000 50  0001 C CNN
+F 3 "~" H 8700 4000 50  0001 C CNN
+	1    8700 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D50
+U 1 1 61B4EDC6
+P 9800 5850
+F 0 "D50" H 9800 6347 50  0000 C CNN
+F 1 "LED_RBGA" H 9800 6256 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 9800 5800 50  0001 C CNN
+F 3 "~" H 9800 5800 50  0001 C CNN
+	1    9800 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D6
+U 1 1 61B5A8A4
+P 2650 4050
+F 0 "D6" H 2650 4547 50  0000 C CNN
+F 1 "LED_RBGA" H 2650 4456 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 2650 4000 50  0001 C CNN
+F 3 "~" H 2650 4000 50  0001 C CNN
+	1    2650 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D11
+U 1 1 61B5A8AA
+P 10350 4950
+F 0 "D11" H 10350 5447 50  0000 C CNN
+F 1 "LED_RBGA" H 10350 5356 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 10350 4900 50  0001 C CNN
+F 3 "~" H 10350 4900 50  0001 C CNN
+	1    10350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D16
+U 1 1 61B5A8B0
+P 4300 4050
+F 0 "D16" H 4300 4547 50  0000 C CNN
+F 1 "LED_RBGA" H 4300 4456 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 4300 4000 50  0001 C CNN
+F 3 "~" H 4300 4000 50  0001 C CNN
+	1    4300 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D21
+U 1 1 61B5A8B6
+P 3750 5850
+F 0 "D21" H 3750 6347 50  0000 C CNN
+F 1 "LED_RBGA" H 3750 6256 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 3750 5800 50  0001 C CNN
+F 3 "~" H 3750 5800 50  0001 C CNN
+	1    3750 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D26
+U 1 1 61B5A8BC
+P 5950 4050
+F 0 "D26" H 5950 4547 50  0000 C CNN
+F 1 "LED_RBGA" H 5950 4456 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 5950 4000 50  0001 C CNN
+F 3 "~" H 5950 4000 50  0001 C CNN
+	1    5950 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D31
+U 1 1 61B5A8C2
+P 5950 5850
+F 0 "D31" H 5950 6347 50  0000 C CNN
+F 1 "LED_RBGA" H 5950 6256 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 5950 5800 50  0001 C CNN
+F 3 "~" H 5950 5800 50  0001 C CNN
+	1    5950 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D36
+U 1 1 61B5A8C8
+P 7600 4050
+F 0 "D36" H 7600 4547 50  0000 C CNN
+F 1 "LED_RBGA" H 7600 4456 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 7600 4000 50  0001 C CNN
+F 3 "~" H 7600 4000 50  0001 C CNN
+	1    7600 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D41
+U 1 1 61B5A8CE
+P 8150 5850
+F 0 "D41" H 8150 6347 50  0000 C CNN
+F 1 "LED_RBGA" H 8150 6256 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 8150 5800 50  0001 C CNN
+F 3 "~" H 8150 5800 50  0001 C CNN
+	1    8150 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D46
+U 1 1 61B5A8D4
+P 9250 4050
+F 0 "D46" H 9250 4547 50  0000 C CNN
+F 1 "LED_RBGA" H 9250 4456 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 9250 4000 50  0001 C CNN
+F 3 "~" H 9250 4000 50  0001 C CNN
+	1    9250 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D51
+U 1 1 61B5A8DA
+P 10350 5850
+F 0 "D51" H 10350 6347 50  0000 C CNN
+F 1 "LED_RBGA" H 10350 6256 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 10350 5800 50  0001 C CNN
+F 3 "~" H 10350 5800 50  0001 C CNN
+	1    10350 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:LED_RBGA D1
+U 1 1 61B5C8ED
+P 2100 3150
+F 0 "D1" H 2100 3647 50  0000 C CNN
+F 1 "LED_RBGA" H 2100 3556 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 2100 3100 50  0001 C CNN
+F 3 "~" H 2100 3100 50  0001 C CNN
+	1    2100 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dodecahedron_boards:Board U2
+U 1 1 61C0ED13
+P 10400 0
+F 0 "U2" H 10528 38  50  0000 L CNN
+F 1 "Board" H 10528 -45 39  0000 L CNN
+F 2 "dodecahedron_n4:pentagon_deploy_cut" H 10400 0   50  0001 C CNN
+F 3 "" H 10400 0   50  0001 C CNN
+	1    10400 0   
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1950 5500 1950
+Text GLabel 1700 2950 0    50   Input ~ 0
+SW1
+Text GLabel 1700 3150 0    50   Input ~ 0
+SW2
+Text GLabel 1700 3350 0    50   Input ~ 0
+SW3
+Text GLabel 1700 3850 0    50   Input ~ 0
+SW4
+Text GLabel 1700 4050 0    50   Input ~ 0
+SW5
+Text GLabel 1700 4250 0    50   Input ~ 0
+SW6
+Text GLabel 1700 4750 0    50   Input ~ 0
+SW7
+Text GLabel 1700 4950 0    50   Input ~ 0
+SW8
+Text GLabel 1700 5150 0    50   Input ~ 0
+SW9
+Text GLabel 1700 5650 0    50   Input ~ 0
+SW10
+Text GLabel 1700 5850 0    50   Input ~ 0
+SW11
+Text GLabel 1700 6050 0    50   Input ~ 0
+SW12
+Wire Wire Line
+	10150 2950 9600 2950
+Connection ~ 1900 2950
+Wire Wire Line
+	1900 2950 1700 2950
+Connection ~ 2450 2950
+Wire Wire Line
+	2450 2950 1900 2950
+Connection ~ 3000 2950
+Wire Wire Line
+	3000 2950 2450 2950
+Connection ~ 3550 2950
+Wire Wire Line
+	3550 2950 3000 2950
+Connection ~ 4100 2950
+Wire Wire Line
+	4100 2950 3550 2950
+Connection ~ 4650 2950
+Wire Wire Line
+	4650 2950 4100 2950
+Connection ~ 5200 2950
+Wire Wire Line
+	5200 2950 4650 2950
+Connection ~ 5750 2950
+Wire Wire Line
+	5750 2950 5200 2950
+Connection ~ 6300 2950
+Wire Wire Line
+	6300 2950 5750 2950
+Connection ~ 6850 2950
+Wire Wire Line
+	6850 2950 6300 2950
+Connection ~ 7400 2950
+Wire Wire Line
+	7400 2950 6850 2950
+Connection ~ 7950 2950
+Wire Wire Line
+	7950 2950 7400 2950
+Connection ~ 8500 2950
+Wire Wire Line
+	8500 2950 7950 2950
+Connection ~ 9050 2950
+Wire Wire Line
+	9050 2950 8500 2950
+Connection ~ 9600 2950
+Wire Wire Line
+	9600 2950 9050 2950
+Wire Wire Line
+	10150 3350 9600 3350
+Connection ~ 1900 3350
+Wire Wire Line
+	1900 3350 1700 3350
+Connection ~ 2450 3350
+Wire Wire Line
+	2450 3350 1900 3350
+Connection ~ 3000 3350
+Wire Wire Line
+	3000 3350 2450 3350
+Connection ~ 3550 3350
+Wire Wire Line
+	3550 3350 3000 3350
+Connection ~ 4100 3350
+Wire Wire Line
+	4100 3350 3550 3350
+Connection ~ 4650 3350
+Wire Wire Line
+	4650 3350 4100 3350
+Connection ~ 5200 3350
+Wire Wire Line
+	5200 3350 4650 3350
+Connection ~ 5750 3350
+Wire Wire Line
+	5750 3350 5200 3350
+Connection ~ 6300 3350
+Wire Wire Line
+	6300 3350 5750 3350
+Connection ~ 6850 3350
+Wire Wire Line
+	6850 3350 6300 3350
+Connection ~ 7400 3350
+Wire Wire Line
+	7400 3350 6850 3350
+Connection ~ 7950 3350
+Wire Wire Line
+	7950 3350 7400 3350
+Connection ~ 8500 3350
+Wire Wire Line
+	8500 3350 7950 3350
+Connection ~ 9050 3350
+Wire Wire Line
+	9050 3350 8500 3350
+Connection ~ 9600 3350
+Wire Wire Line
+	9600 3350 9050 3350
+Wire Wire Line
+	10150 3150 9600 3150
+Connection ~ 1900 3150
+Wire Wire Line
+	1900 3150 1700 3150
+Connection ~ 2450 3150
+Wire Wire Line
+	2450 3150 1900 3150
+Connection ~ 3000 3150
+Wire Wire Line
+	3000 3150 2450 3150
+Connection ~ 3550 3150
+Wire Wire Line
+	3550 3150 3000 3150
+Connection ~ 4100 3150
+Wire Wire Line
+	4100 3150 3550 3150
+Connection ~ 4650 3150
+Wire Wire Line
+	4650 3150 4100 3150
+Connection ~ 5200 3150
+Wire Wire Line
+	5200 3150 4650 3150
+Connection ~ 5750 3150
+Wire Wire Line
+	5750 3150 5200 3150
+Connection ~ 6300 3150
+Wire Wire Line
+	6300 3150 5750 3150
+Connection ~ 6850 3150
+Wire Wire Line
+	6850 3150 6300 3150
+Connection ~ 7400 3150
+Wire Wire Line
+	7400 3150 6850 3150
+Connection ~ 7950 3150
+Wire Wire Line
+	7950 3150 7400 3150
+Connection ~ 8500 3150
+Wire Wire Line
+	8500 3150 7950 3150
+Connection ~ 9050 3150
+Wire Wire Line
+	9050 3150 8500 3150
+Connection ~ 9600 3150
+Wire Wire Line
+	9600 3150 9050 3150
+Wire Wire Line
+	1700 3850 1900 3850
+Connection ~ 1900 3850
+Wire Wire Line
+	1900 3850 2450 3850
+Connection ~ 2450 3850
+Wire Wire Line
+	2450 3850 3000 3850
+Connection ~ 3000 3850
+Wire Wire Line
+	3000 3850 3550 3850
+Connection ~ 3550 3850
+Wire Wire Line
+	3550 3850 4100 3850
+Connection ~ 4100 3850
+Wire Wire Line
+	4100 3850 4650 3850
+Connection ~ 4650 3850
+Wire Wire Line
+	4650 3850 5250 3850
+Connection ~ 5250 3850
+Wire Wire Line
+	5250 3850 5750 3850
+Connection ~ 5750 3850
+Wire Wire Line
+	5750 3850 6300 3850
+Connection ~ 6300 3850
+Wire Wire Line
+	6300 3850 6850 3850
+Connection ~ 6850 3850
+Wire Wire Line
+	6850 3850 7400 3850
+Connection ~ 7400 3850
+Wire Wire Line
+	7400 3850 7950 3850
+Connection ~ 7950 3850
+Wire Wire Line
+	7950 3850 8500 3850
+Connection ~ 8500 3850
+Wire Wire Line
+	8500 3850 9050 3850
+Connection ~ 9050 3850
+Wire Wire Line
+	9050 3850 9600 3850
+Wire Wire Line
+	1700 4050 1900 4050
+Connection ~ 1900 4050
+Wire Wire Line
+	1900 4050 2450 4050
+Connection ~ 2450 4050
+Wire Wire Line
+	2450 4050 3000 4050
+Connection ~ 3000 4050
+Wire Wire Line
+	3000 4050 3550 4050
+Connection ~ 3550 4050
+Wire Wire Line
+	3550 4050 4100 4050
+Connection ~ 4100 4050
+Wire Wire Line
+	4100 4050 4650 4050
+Connection ~ 4650 4050
+Wire Wire Line
+	4650 4050 5250 4050
+Connection ~ 5250 4050
+Wire Wire Line
+	5250 4050 5750 4050
+Connection ~ 5750 4050
+Wire Wire Line
+	5750 4050 6300 4050
+Connection ~ 6300 4050
+Wire Wire Line
+	6300 4050 6850 4050
+Connection ~ 6850 4050
+Wire Wire Line
+	6850 4050 7400 4050
+Connection ~ 7400 4050
+Wire Wire Line
+	7400 4050 7950 4050
+Connection ~ 7950 4050
+Wire Wire Line
+	7950 4050 8500 4050
+Connection ~ 8500 4050
+Wire Wire Line
+	8500 4050 9050 4050
+Connection ~ 9050 4050
+Wire Wire Line
+	9050 4050 9600 4050
+Wire Wire Line
+	9600 4250 9050 4250
+Connection ~ 1900 4250
+Wire Wire Line
+	1900 4250 1700 4250
+Connection ~ 2450 4250
+Wire Wire Line
+	2450 4250 1900 4250
+Connection ~ 3000 4250
+Wire Wire Line
+	3000 4250 2450 4250
+Connection ~ 3550 4250
+Wire Wire Line
+	3550 4250 3000 4250
+Connection ~ 4100 4250
+Wire Wire Line
+	4100 4250 3550 4250
+Connection ~ 4650 4250
+Wire Wire Line
+	4650 4250 4100 4250
+Connection ~ 5250 4250
+Wire Wire Line
+	5250 4250 4650 4250
+Connection ~ 5750 4250
+Wire Wire Line
+	5750 4250 5250 4250
+Connection ~ 6300 4250
+Wire Wire Line
+	6300 4250 5750 4250
+Connection ~ 6850 4250
+Wire Wire Line
+	6850 4250 6300 4250
+Connection ~ 7400 4250
+Wire Wire Line
+	7400 4250 6850 4250
+Connection ~ 7950 4250
+Wire Wire Line
+	7950 4250 7400 4250
+Connection ~ 8500 4250
+Wire Wire Line
+	8500 4250 7950 4250
+Connection ~ 9050 4250
+Wire Wire Line
+	9050 4250 8500 4250
+Wire Wire Line
+	10150 5650 9600 5650
+Connection ~ 1900 5650
+Wire Wire Line
+	1900 5650 1700 5650
+Connection ~ 2450 5650
+Wire Wire Line
+	2450 5650 1900 5650
+Connection ~ 3000 5650
+Wire Wire Line
+	3000 5650 2450 5650
+Connection ~ 3550 5650
+Wire Wire Line
+	3550 5650 3000 5650
+Connection ~ 4100 5650
+Wire Wire Line
+	4100 5650 3550 5650
+Connection ~ 4650 5650
+Wire Wire Line
+	4650 5650 4100 5650
+Connection ~ 5200 5650
+Wire Wire Line
+	5200 5650 4650 5650
+Connection ~ 5750 5650
+Wire Wire Line
+	5750 5650 5200 5650
+Connection ~ 6300 5650
+Wire Wire Line
+	6300 5650 5750 5650
+Connection ~ 6850 5650
+Wire Wire Line
+	6850 5650 6300 5650
+Connection ~ 7400 5650
+Wire Wire Line
+	7400 5650 6850 5650
+Connection ~ 7950 5650
+Wire Wire Line
+	7950 5650 7400 5650
+Connection ~ 8500 5650
+Wire Wire Line
+	8500 5650 7950 5650
+Connection ~ 9050 5650
+Wire Wire Line
+	9050 5650 8500 5650
+Connection ~ 9600 5650
+Wire Wire Line
+	9600 5650 9050 5650
+Wire Wire Line
+	10150 5850 9600 5850
+Connection ~ 1900 5850
+Wire Wire Line
+	1900 5850 1700 5850
+Connection ~ 2450 5850
+Wire Wire Line
+	2450 5850 1900 5850
+Connection ~ 3000 5850
+Wire Wire Line
+	3000 5850 2450 5850
+Connection ~ 3550 5850
+Wire Wire Line
+	3550 5850 3000 5850
+Connection ~ 4100 5850
+Wire Wire Line
+	4100 5850 3550 5850
+Connection ~ 4650 5850
+Wire Wire Line
+	4650 5850 4100 5850
+Connection ~ 5200 5850
+Wire Wire Line
+	5200 5850 4650 5850
+Connection ~ 5750 5850
+Wire Wire Line
+	5750 5850 5200 5850
+Connection ~ 6300 5850
+Wire Wire Line
+	6300 5850 5750 5850
+Connection ~ 6850 5850
+Wire Wire Line
+	6850 5850 6300 5850
+Connection ~ 7400 5850
+Wire Wire Line
+	7400 5850 6850 5850
+Connection ~ 7950 5850
+Wire Wire Line
+	7950 5850 7400 5850
+Connection ~ 8500 5850
+Wire Wire Line
+	8500 5850 7950 5850
+Connection ~ 9050 5850
+Wire Wire Line
+	9050 5850 8500 5850
+Connection ~ 9600 5850
+Wire Wire Line
+	9600 5850 9050 5850
+Wire Wire Line
+	1700 6050 1900 6050
+Connection ~ 1900 6050
+Wire Wire Line
+	1900 6050 2450 6050
+Connection ~ 2450 6050
+Wire Wire Line
+	2450 6050 3000 6050
+Connection ~ 3000 6050
+Wire Wire Line
+	3000 6050 3550 6050
+Connection ~ 3550 6050
+Wire Wire Line
+	3550 6050 4100 6050
+Connection ~ 4100 6050
+Wire Wire Line
+	4100 6050 4650 6050
+Connection ~ 4650 6050
+Wire Wire Line
+	4650 6050 5200 6050
+Connection ~ 5200 6050
+Wire Wire Line
+	5200 6050 5750 6050
+Connection ~ 5750 6050
+Wire Wire Line
+	5750 6050 6300 6050
+Connection ~ 6300 6050
+Wire Wire Line
+	6300 6050 6850 6050
+Connection ~ 6850 6050
+Wire Wire Line
+	6850 6050 7400 6050
+Connection ~ 7400 6050
+Wire Wire Line
+	7400 6050 7950 6050
+Connection ~ 7950 6050
+Wire Wire Line
+	7950 6050 8500 6050
+Connection ~ 8500 6050
+Wire Wire Line
+	8500 6050 9050 6050
+Connection ~ 9050 6050
+Wire Wire Line
+	9050 6050 9600 6050
+Connection ~ 9600 6050
+Wire Wire Line
+	9600 6050 10150 6050
+Wire Wire Line
+	10150 4750 9600 4750
+Connection ~ 8500 4750
+Wire Wire Line
+	8500 4750 1700 4750
+Connection ~ 9050 4750
+Wire Wire Line
+	9050 4750 8500 4750
+Connection ~ 9600 4750
+Wire Wire Line
+	9600 4750 9050 4750
+Wire Wire Line
+	10150 4950 9600 4950
+Connection ~ 8500 4950
+Wire Wire Line
+	8500 4950 1700 4950
+Connection ~ 9050 4950
+Wire Wire Line
+	9050 4950 8500 4950
+Connection ~ 9600 4950
+Wire Wire Line
+	9600 4950 9050 4950
+Wire Wire Line
+	10150 5150 9600 5150
+Connection ~ 8500 5150
+Wire Wire Line
+	8500 5150 1700 5150
+Connection ~ 9050 5150
+Wire Wire Line
+	9050 5150 8500 5150
+Connection ~ 9600 5150
+Wire Wire Line
+	9600 5150 9050 5150
+Wire Wire Line
+	6150 3250 6200 3250
+Wire Wire Line
+	6750 2300 6750 3250
+Wire Wire Line
+	6750 3250 6700 3250
+Wire Wire Line
+	6300 2300 6750 2300
+Wire Wire Line
+	7250 3250 7300 3250
+Wire Wire Line
+	7300 3250 7300 2250
+Wire Wire Line
+	6400 2250 7300 2250
+Wire Wire Line
+	7800 3250 7850 3250
+Wire Wire Line
+	7850 3250 7850 2200
+Wire Wire Line
+	6500 2200 7850 2200
+Wire Wire Line
+	8350 3250 8400 3250
+Wire Wire Line
+	8400 3250 8400 2150
+Wire Wire Line
+	6600 2150 8400 2150
+Wire Wire Line
+	8900 3250 8950 3250
+Wire Wire Line
+	8950 3250 8950 2100
+Wire Wire Line
+	6700 2100 8950 2100
+Wire Wire Line
+	9450 3250 9500 3250
+Wire Wire Line
+	9500 3250 9500 2050
+Wire Wire Line
+	6800 2050 9500 2050
+Wire Wire Line
+	10000 3250 10050 3250
+Wire Wire Line
+	10050 3250 10050 2000
+Wire Wire Line
+	6900 2000 10050 2000
+Wire Wire Line
+	10550 3250 10600 3250
+Wire Wire Line
+	10600 3250 10600 1950
+Wire Wire Line
+	7000 1950 10600 1950
+Wire Wire Line
+	10550 5950 10550 5050
+Connection ~ 10550 3250
+Connection ~ 10550 5050
+Wire Wire Line
+	10550 5050 10550 3250
+Wire Wire Line
+	10000 5950 10000 5050
+Connection ~ 10000 3250
+Connection ~ 10000 4150
+Wire Wire Line
+	10000 4150 10000 3250
+Connection ~ 10000 5050
+Wire Wire Line
+	10000 5050 10000 4150
+Wire Wire Line
+	9450 5950 9450 5050
+Connection ~ 9450 3250
+Connection ~ 9450 4150
+Wire Wire Line
+	9450 4150 9450 3250
+Connection ~ 9450 5050
+Wire Wire Line
+	9450 5050 9450 4150
+Wire Wire Line
+	8900 5950 8900 5050
+Connection ~ 8900 3250
+Connection ~ 8900 4150
+Wire Wire Line
+	8900 4150 8900 3250
+Connection ~ 8900 5050
+Wire Wire Line
+	8900 5050 8900 4150
+Wire Wire Line
+	8350 5950 8350 4150
+Connection ~ 8350 3250
+Connection ~ 8350 4150
+Wire Wire Line
+	8350 4150 8350 3250
+Wire Wire Line
+	7800 5950 7800 4150
+Connection ~ 7800 3250
+Connection ~ 7800 4150
+Wire Wire Line
+	7800 4150 7800 3250
+Wire Wire Line
+	7250 5950 7250 4150
+Connection ~ 7250 3250
+Connection ~ 7250 4150
+Wire Wire Line
+	7250 4150 7250 3250
+Wire Wire Line
+	6700 5950 6700 4150
+Connection ~ 6700 3250
+Connection ~ 6700 4150
+Wire Wire Line
+	6700 4150 6700 3250
+Wire Wire Line
+	6150 5950 6150 4150
+Connection ~ 6150 3250
+Connection ~ 6150 4150
+Wire Wire Line
+	6150 4150 6150 3250
+Wire Wire Line
+	5600 5950 5600 3250
+Wire Wire Line
+	5050 5950 5050 4150
+Connection ~ 5050 4150
+Wire Wire Line
+	5050 4150 5050 3250
+Wire Wire Line
+	2300 5950 2300 4150
+Connection ~ 2300 4150
+Wire Wire Line
+	2300 4150 2300 3250
+Wire Wire Line
+	2300 3250 2300 1950
+Connection ~ 2300 3250
+Wire Wire Line
+	2850 5950 2850 4150
+Connection ~ 2850 4150
+Wire Wire Line
+	2850 4150 2850 3250
+Wire Wire Line
+	2850 3250 2850 2000
+Wire Wire Line
+	2850 2000 5600 2000
+Connection ~ 2850 3250
+Wire Wire Line
+	3400 5950 3400 4150
+Connection ~ 3400 4150
+Wire Wire Line
+	3400 4150 3400 3250
+Wire Wire Line
+	3400 2050 3400 3250
+Wire Wire Line
+	3400 2050 5700 2050
+Connection ~ 3400 3250
+Wire Wire Line
+	3950 5950 3950 4150
+Wire Wire Line
+	3950 2100 5800 2100
+Connection ~ 3950 3250
+Wire Wire Line
+	3950 3250 3950 2100
+Connection ~ 3950 4150
+Wire Wire Line
+	3950 4150 3950 3250
+Wire Wire Line
+	4500 5950 4500 4150
+Wire Wire Line
+	4500 2150 5900 2150
+Connection ~ 4500 3250
+Wire Wire Line
+	4500 3250 4500 2150
+Connection ~ 4500 4150
+Wire Wire Line
+	4500 4150 4500 3250
+Wire Wire Line
+	5050 3250 5050 2200
+Wire Wire Line
+	5050 2200 6000 2200
+Connection ~ 5050 3250
+Wire Wire Line
+	5600 3250 5600 2250
+Wire Wire Line
+	5600 2250 6100 2250
+Connection ~ 5600 3250
+$Comp
+L power:VCC #PWR0102
+U 1 1 62D2B51D
+P 7250 550
+F 0 "#PWR0102" H 7250 400 50  0001 C CNN
+F 1 "VCC" H 7265 723 50  0000 C CNN
+F 2 "" H 7250 550 50  0001 C CNN
+F 3 "" H 7250 550 50  0001 C CNN
+	1    7250 550 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 1400 6200 3250
+Wire Wire Line
+	6300 2300 6300 1400
+Wire Wire Line
+	3950 800  3950 850 
+Connection ~ 3950 800 
+Wire Wire Line
+	4000 800  3950 800 
+Wire Wire Line
+	3950 700  3950 800 
+Connection ~ 3950 700 
+Wire Wire Line
+	4000 700  3950 700 
+Wire Wire Line
+	3950 600  3950 700 
+Wire Wire Line
+	4000 600  3950 600 
+$Comp
+L power:GND #PWR0101
+U 1 1 62ADF929
+P 3950 850
+F 0 "#PWR0101" H 3950 600 50  0001 C CNN
+F 1 "GND" H 3955 677 50  0000 C CNN
+F 2 "" H 3950 850 50  0001 C CNN
+F 3 "" H 3950 850 50  0001 C CNN
+	1    3950 850 
+	-1   0    0    -1  
+$EndComp
+Text GLabel 4200 1400 3    50   Input ~ 0
+SW12
+Text GLabel 4300 1400 3    50   Input ~ 0
+SW11
+Text GLabel 4400 1400 3    50   Input ~ 0
+SW10
+Text GLabel 4500 1400 3    50   Input ~ 0
+SW9
+Text GLabel 4600 1400 3    50   Input ~ 0
+SW8
+Text GLabel 4700 1400 3    50   Input ~ 0
+SW7
+Text GLabel 4800 1400 3    50   Input ~ 0
+SW6
+Text GLabel 4900 1400 3    50   Input ~ 0
+SW5
+Text GLabel 5000 1400 3    50   Input ~ 0
+SW4
+Text GLabel 5100 1400 3    50   Input ~ 0
+SW3
+Text GLabel 5200 1400 3    50   Input ~ 0
+SW2
+Text GLabel 5300 1400 3    50   Input ~ 0
+SW1
+Wire Wire Line
+	5500 1950 5500 1400
+Wire Wire Line
+	5600 2000 5600 1400
+Wire Wire Line
+	5700 2050 5700 1400
+Wire Wire Line
+	5800 2100 5800 1400
+Wire Wire Line
+	5900 2150 5900 1400
+Wire Wire Line
+	6000 2200 6000 1400
+Wire Wire Line
+	6100 2250 6100 1400
+Wire Wire Line
+	6400 2250 6400 1400
+Wire Wire Line
+	6500 2200 6500 1400
+Wire Wire Line
+	6600 2150 6600 1400
+Wire Wire Line
+	6700 2100 6700 1400
+Wire Wire Line
+	6800 1400 6800 2050
+Wire Wire Line
+	6900 2000 6900 1400
+Wire Wire Line
+	7000 1950 7000 1400
+$Comp
+L Driver_LED:IS31FL3733-QF U1
+U 1 1 61B5E21A
+P 5600 700
+F 0 "U1" V 5554 -944 50  0000 R CNN
+F 1 "IS31FL3733-QF" V 5645 -944 50  0000 R CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.2x4.2mm" H 5600 700 50  0001 C CNN
+F 3 "http://www.issi.com/WW/pdf/IS31FL3733.pdf" H 5600 700 50  0001 C CNN
+	1    5600 700 
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J1
+U 1 1 62D2F213
+P 6800 -700
+F 0 "J1" V 6738 -988 50  0000 R CNN
+F 1 "Conn_01x04_Female" V 6647 -988 50  0000 R CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 6800 -700 50  0001 C CNN
+F 3 "~" H 6800 -700 50  0001 C CNN
+	1    6800 -700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0103
+U 1 1 62D4F0A3
+P 6900 -500
+F 0 "#PWR0103" H 6900 -650 50  0001 C CNN
+F 1 "VCC" H 6915 -327 50  0000 C CNN
+F 2 "" H 6900 -500 50  0001 C CNN
+F 3 "" H 6900 -500 50  0001 C CNN
+	1    6900 -500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 62D4FD57
+P 7000 -500
+F 0 "#PWR0104" H 7000 -750 50  0001 C CNN
+F 1 "GND" H 7005 -673 50  0000 C CNN
+F 2 "" H 7000 -500 50  0001 C CNN
+F 3 "" H 7000 -500 50  0001 C CNN
+	1    7000 -500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 0    6800 -500
+Wire Wire Line
+	6700 -500 6700 0   
+Text Label 6800 -250 3    50   ~ 0
+SDA
+Text Label 6700 -250 3    50   ~ 0
+SCL
+Text Label 7000 1650 3    50   ~ 0
+CS1
+Text Label 6900 1650 3    50   ~ 0
+CS2
+Text Label 6800 1650 3    50   ~ 0
+CS3
+Text Label 6700 1650 3    50   ~ 0
+CS4
+Text Label 6600 1650 3    50   ~ 0
+CS5
+Text Label 6500 1650 3    50   ~ 0
+CS6
+Text Label 6400 1650 3    50   ~ 0
+CS7
+Text Label 6300 1650 3    50   ~ 0
+CS8
+Text Label 6200 1650 3    50   ~ 0
+CS9
+Text Label 6100 1650 3    50   ~ 0
+CS10
+Text Label 6000 1650 3    50   ~ 0
+CS11
+Text Label 5900 1650 3    50   ~ 0
+CS12
+Text Label 5800 1650 3    50   ~ 0
+CS13
+Text Label 5700 1650 3    50   ~ 0
+CS14
+Text Label 5600 1650 3    50   ~ 0
+CS15
+Text Label 5500 1650 3    50   ~ 0
+CS16
+$Comp
+L Device:C C1
+U 1 1 631BC3EC
+P 7250 -100
+F 0 "C1" V 6998 -100 50  0000 C CNN
+F 1 "C" V 7089 -100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7288 -250 50  0001 C CNN
+F 3 "~" H 7250 -100 50  0001 C CNN
+	1    7250 -100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7000 0    7000 -100
+Wire Wire Line
+	7000 -100 7100 -100
+$Comp
+L power:GND #PWR0105
+U 1 1 631D555C
+P 7400 -100
+F 0 "#PWR0105" H 7400 -350 50  0001 C CNN
+F 1 "GND" V 7405 -228 50  0000 R CNN
+F 2 "" H 7400 -100 50  0001 C CNN
+F 3 "" H 7400 -100 50  0001 C CNN
+	1    7400 -100
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 631F8D80
+P 6050 -700
+F 0 "#PWR0106" H 6050 -950 50  0001 C CNN
+F 1 "GND" V 6055 -828 50  0000 R CNN
+F 2 "" H 6050 -700 50  0001 C CNN
+F 3 "" H 6050 -700 50  0001 C CNN
+	1    6050 -700
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 631FA025
+P 6100 -500
+F 0 "R1" H 6170 -454 50  0000 L CNN
+F 1 "R" H 6170 -545 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 6030 -500 50  0001 C CNN
+F 3 "~" H 6100 -500 50  0001 C CNN
+	1    6100 -500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 -650 6100 -700
+Wire Wire Line
+	6100 -700 6050 -700
+Connection ~ 6100 -700
+Wire Wire Line
+	5900 -350 5900 0   
+Wire Wire Line
+	6000 -350 6000 0   
+Wire Wire Line
+	6100 -350 6100 0   
+$Comp
+L Device:R R5
+U 1 1 63281C0E
+P 6500 -500
+F 0 "R5" H 6570 -454 50  0000 L CNN
+F 1 "R" H 6570 -545 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 6430 -500 50  0001 C CNN
+F 3 "~" H 6500 -500 50  0001 C CNN
+	1    6500 -500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 632823A9
+P 6400 -500
+F 0 "R4" H 6470 -454 50  0000 L CNN
+F 1 "R" H 6470 -545 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 6330 -500 50  0001 C CNN
+F 3 "~" H 6400 -500 50  0001 C CNN
+	1    6400 -500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 0    6400 -350
+Wire Wire Line
+	6500 0    6500 -350
+Wire Wire Line
+	6500 -700 6500 -650
+Wire Wire Line
+	6400 -650 6400 -700
+Connection ~ 6400 -700
+Wire Wire Line
+	6400 -700 6500 -700
+$Comp
+L Device:C C2
+U 1 1 632E073A
+P 7450 600
+F 0 "C2" V 7198 600 50  0000 C CNN
+F 1 "C" V 7289 600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7488 450 50  0001 C CNN
+F 3 "~" H 7450 600 50  0001 C CNN
+	1    7450 600 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 632E0740
+P 7600 600
+F 0 "#PWR0107" H 7600 350 50  0001 C CNN
+F 1 "GND" V 7605 472 50  0000 R CNN
+F 2 "" H 7600 600 50  0001 C CNN
+F 3 "" H 7600 600 50  0001 C CNN
+	1    7600 600 
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 632F6C5A
+P 7450 700
+F 0 "C3" V 7198 700 50  0000 C CNN
+F 1 "C" V 7289 700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7488 550 50  0001 C CNN
+F 3 "~" H 7450 700 50  0001 C CNN
+	1    7450 700 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 632F6C60
+P 7600 700
+F 0 "#PWR0108" H 7600 450 50  0001 C CNN
+F 1 "GND" V 7605 572 50  0000 R CNN
+F 2 "" H 7600 700 50  0001 C CNN
+F 3 "" H 7600 700 50  0001 C CNN
+	1    7600 700 
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 6330D456
+P 7450 800
+F 0 "C4" V 7198 800 50  0000 C CNN
+F 1 "C" V 7289 800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7488 650 50  0001 C CNN
+F 3 "~" H 7450 800 50  0001 C CNN
+	1    7450 800 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 6330D45C
+P 7600 800
+F 0 "#PWR0109" H 7600 550 50  0001 C CNN
+F 1 "GND" V 7605 672 50  0000 R CNN
+F 2 "" H 7600 800 50  0001 C CNN
+F 3 "" H 7600 800 50  0001 C CNN
+	1    7600 800 
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 6332440D
+P 7450 900
+F 0 "C5" V 7198 900 50  0000 C CNN
+F 1 "C" V 7289 900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7488 750 50  0001 C CNN
+F 3 "~" H 7450 900 50  0001 C CNN
+	1    7450 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 63324413
+P 7600 900
+F 0 "#PWR0110" H 7600 650 50  0001 C CNN
+F 1 "GND" V 7605 772 50  0000 R CNN
+F 2 "" H 7600 900 50  0001 C CNN
+F 3 "" H 7600 900 50  0001 C CNN
+	1    7600 900 
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	7200 900  7250 900 
+Wire Wire Line
+	7300 800  7250 800 
+Wire Wire Line
+	7300 700  7250 700 
+Wire Wire Line
+	7300 600  7250 600 
+Wire Wire Line
+	7250 900  7250 800 
+Connection ~ 7250 900 
+Wire Wire Line
+	7250 900  7300 900 
+Connection ~ 7250 600 
+Wire Wire Line
+	7250 600  7200 600 
+Connection ~ 7250 700 
+Wire Wire Line
+	7250 700  7200 700 
+Wire Wire Line
+	7250 700  7250 600 
+Connection ~ 7250 800 
+Wire Wire Line
+	7250 800  7200 800 
+Wire Wire Line
+	7250 800  7250 700 
+Wire Wire Line
+	7250 550  7250 600 
+$Comp
+L dodecahedron_boards:Board U3
+U 1 1 635C6952
+P 9550 0
+F 0 "U3" H 9678 38  50  0000 L CNN
+F 1 "Board" H 9678 -45 39  0000 L CNN
+F 2 "davedarko:davedarko_logo_silk_outline" H 9550 0   50  0001 C CNN
+F 3 "" H 9550 0   50  0001 C CNN
+	1    9550 0   
+	1    0    0    -1  
+$EndComp
+Text Label 5900 -300 3    50   ~ 0
+addr2
+Text Label 6000 -300 3    50   ~ 0
+addr1
+Wire Wire Line
+	6100 -700 6400 -700
+Text GLabel 6000 -350 1    50   Input ~ 0
+ADDR1
+Text GLabel 5900 -350 1    50   Input ~ 0
+ADDR2
+Text GLabel 6950 -2300 2    50   Input ~ 0
+ADDR1
+$Comp
+L dodecahedron_boards:Jumper4 U4
+U 1 1 6377BF8D
+P 6550 -2150
+F 0 "U4" H 6575 -1775 50  0000 C CNN
+F 1 "Jumper4" H 6575 -1866 50  0000 C CNN
+F 2 "dodecahedron_n4:SolderJumper-4-0402" H 6350 -2100 50  0001 C CNN
+F 3 "" H 6350 -2100 50  0001 C CNN
+	1    6550 -2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 6200 -2000 0    50   Input ~ 0
+SCL
+Text GLabel 6200 -2100 0    50   Input ~ 0
+SDA
+$Comp
+L power:GND #PWR0111
+U 1 1 6377CF11
+P 6200 -2300
+F 0 "#PWR0111" H 6200 -2550 50  0001 C CNN
+F 1 "GND" V 6205 -2428 50  0000 R CNN
+F 2 "" H 6200 -2300 50  0001 C CNN
+F 3 "" H 6200 -2300 50  0001 C CNN
+	1    6200 -2300
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0112
+U 1 1 6377D671
+P 6200 -2200
+F 0 "#PWR0112" H 6200 -2350 50  0001 C CNN
+F 1 "VCC" V 6215 -2073 50  0000 L CNN
+F 2 "" H 6200 -2200 50  0001 C CNN
+F 3 "" H 6200 -2200 50  0001 C CNN
+	1    6200 -2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dodecahedron_boards:Jumper4 U5
+U 1 1 637AFF5E
+P 8100 -2150
+F 0 "U5" H 8125 -1775 50  0000 C CNN
+F 1 "Jumper4" H 8125 -1866 50  0000 C CNN
+F 2 "dodecahedron_n4:SolderJumper-4-0402" H 7900 -2100 50  0001 C CNN
+F 3 "" H 7900 -2100 50  0001 C CNN
+	1    8100 -2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 7750 -2000 0    50   Input ~ 0
+SCL
+Text GLabel 7750 -2100 0    50   Input ~ 0
+SDA
+$Comp
+L power:GND #PWR0113
+U 1 1 637AFF66
+P 7750 -2300
+F 0 "#PWR0113" H 7750 -2550 50  0001 C CNN
+F 1 "GND" V 7755 -2428 50  0000 R CNN
+F 2 "" H 7750 -2300 50  0001 C CNN
+F 3 "" H 7750 -2300 50  0001 C CNN
+	1    7750 -2300
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0114
+U 1 1 637AFF6C
+P 7750 -2200
+F 0 "#PWR0114" H 7750 -2350 50  0001 C CNN
+F 1 "VCC" V 7765 -2073 50  0000 L CNN
+F 2 "" H 7750 -2200 50  0001 C CNN
+F 3 "" H 7750 -2200 50  0001 C CNN
+	1    7750 -2200
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8500 -2300 2    50   Input ~ 0
+ADDR2
+$EndSCHEMATC

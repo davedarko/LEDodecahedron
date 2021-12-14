@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name dodecahedron_boards)(type Legacy)(uri ${KIPRJMOD}/dodecahedron_boards.lib)(options "")(descr ""))
+)
