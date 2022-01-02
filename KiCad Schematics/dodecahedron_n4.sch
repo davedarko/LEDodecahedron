@@ -388,17 +388,6 @@ F 3 "~" H 3200 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dodecahedron_boards:LED_RBGA D25
-U 1 1 61B4EDA8
-P 5450 4050
-F 0 "D25" H 5450 4547 50  0000 C CNN
-F 1 "LED_RBGA" H 5450 4456 50  0000 C CNN
-F 2 "dodecahedron_n4:B2020RGBA" H 5450 4000 50  0001 C CNN
-F 3 "~" H 5450 4000 50  0001 C CNN
-	1    5450 4050
-	1    0    0    -1  
-$EndComp
-$Comp
 L dodecahedron_boards:LED_RBGA D30
 U 1 1 61B4EDAE
 P 5400 5850
@@ -770,11 +759,6 @@ Connection ~ 4100 3850
 Wire Wire Line
 	4100 3850 4650 3850
 Connection ~ 4650 3850
-Wire Wire Line
-	4650 3850 5250 3850
-Connection ~ 5250 3850
-Wire Wire Line
-	5250 3850 5750 3850
 Connection ~ 5750 3850
 Wire Wire Line
 	5750 3850 6300 3850
@@ -814,11 +798,6 @@ Connection ~ 4100 4050
 Wire Wire Line
 	4100 4050 4650 4050
 Connection ~ 4650 4050
-Wire Wire Line
-	4650 4050 5250 4050
-Connection ~ 5250 4050
-Wire Wire Line
-	5250 4050 5750 4050
 Connection ~ 5750 4050
 Wire Wire Line
 	5750 4050 6300 4050
@@ -860,12 +839,7 @@ Wire Wire Line
 Connection ~ 4650 4250
 Wire Wire Line
 	4650 4250 4100 4250
-Connection ~ 5250 4250
-Wire Wire Line
-	5250 4250 4650 4250
 Connection ~ 5750 4250
-Wire Wire Line
-	5750 4250 5250 4250
 Connection ~ 6300 4250
 Wire Wire Line
 	6300 4250 5750 4250
@@ -1171,8 +1145,6 @@ Connection ~ 6150 3250
 Connection ~ 6150 4150
 Wire Wire Line
 	6150 4150 6150 3250
-Wire Wire Line
-	5600 5950 5600 3250
 Wire Wire Line
 	5050 5950 5050 4150
 Connection ~ 5050 4150
@@ -1743,4 +1715,57 @@ F 3 "" H 6600 -650 50  0001 C CNN
 	1    6600 -650
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:VCC #PWR0116
+U 1 1 61EB73C6
+P 7100 -250
+F 0 "#PWR0116" H 7100 -400 50  0001 C CNN
+F 1 "VCC" H 7115 -77 50  0000 C CNN
+F 2 "" H 7100 -250 50  0001 C CNN
+F 3 "" H 7100 -250 50  0001 C CNN
+	1    7100 -250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 -100 7000 -250
+Wire Wire Line
+	7000 -250 7100 -250
+Connection ~ 7000 -100
+Text Label 6500 -100 1    50   ~ 0
+SDB
+Text Label 6400 -50  1    50   ~ 0
+I2C_RST
+Text Label 6600 -100 1    50   ~ 0
+INTB
+$Comp
+L dodecahedron_boards:LED_RBGA D25
+U 1 1 61B4EDA8
+P 5400 4050
+F 0 "D25" H 5400 4547 50  0000 C CNN
+F 1 "LED_RBGA" H 5400 4456 50  0000 C CNN
+F 2 "dodecahedron_n4:B2020RGBA" H 5400 4000 50  0001 C CNN
+F 3 "~" H 5400 4000 50  0001 C CNN
+	1    5400 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3850 5200 3850
+Connection ~ 5200 3850
+Wire Wire Line
+	5200 3850 5750 3850
+Connection ~ 5200 4250
+Wire Wire Line
+	5200 4250 4650 4250
+Wire Wire Line
+	5750 4250 5200 4250
+Wire Wire Line
+	4650 4050 5200 4050
+Connection ~ 5200 4050
+Wire Wire Line
+	5200 4050 5750 4050
+Wire Wire Line
+	5600 5950 5600 4150
+Wire Wire Line
+	5600 4150 5600 3250
+Connection ~ 5600 4150
 $EndSCHEMATC
