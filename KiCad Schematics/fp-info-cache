@@ -1,4 +1,4 @@
-19098087500324637
+19111244936289049
 Battery
 BGA-25_5x5_6.0x6.0mm
 
@@ -83041,6 +83041,55 @@ varistor SIOV
 2
 2
 davedarko
+LED_D3.0mm
+LED, diameter 3.0mm, 2 pins
+LED diameter 3.0mm 2 pins
+0
+2
+2
+davedarko
+LED_D5.0mm
+LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
+LED diameter 5.0mm 2 pins
+0
+2
+2
+davedarko
+PinHeader_2x04_P2.54mm_Edge_SMD
+surface-mounted straight pin header, 2x04, 2.54mm pitch, double rows
+Surface mounted pin header SMD 2x04 2.54mm double row
+0
+8
+8
+davedarko
+R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+davedarko
+SW_PUSH_6mm_with_diode
+https://www.omron.com/ecb/products/pdf/en-b3f.pdf
+tact sw push 6mm
+0
+6
+3
+davedarko
+TinyPico
+
+
+0
+20
+20
+davedarko
+big_grid_deploy
+
+
+0
+0
+0
+davedarko
 davedarko_logo
 
 
@@ -83063,6 +83112,13 @@ davedarko_logo_silk
 0
 davedarko
 davedarko_logo_silk_outline
+
+
+0
+0
+0
+davedarko
+small_grid_deploy
 
 
 0

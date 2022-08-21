@@ -1768,4 +1768,52 @@ Wire Wire Line
 Wire Wire Line
 	5600 4150 5600 3250
 Connection ~ 5600 4150
+$Comp
+L Connector:Conn_01x04_Female J2
+U 1 1 6304B0AD
+P 6800 -700
+F 0 "J2" V 6738 -988 50  0000 R CNN
+F 1 "Conn_01x04_Female" V 6647 -988 50  0000 R CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 6800 -700 50  0001 C CNN
+F 3 "~" H 6800 -700 50  0001 C CNN
+	1    6800 -700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6700 -500
+Connection ~ 6800 -500
+Connection ~ 6900 -500
+Connection ~ 7000 -500
+$Comp
+L Device:C C6
+U 1 1 630E39E3
+P 8350 -200
+F 0 "C6" V 8098 -200 50  0000 C CNN
+F 1 "1uF" V 8189 -200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8388 -350 50  0001 C CNN
+F 3 "~" H 8350 -200 50  0001 C CNN
+	1    8350 -200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 630E39ED
+P 8500 -200
+F 0 "#PWR0117" H 8500 -450 50  0001 C CNN
+F 1 "GND" V 8505 -328 50  0000 R CNN
+F 2 "" H 8500 -200 50  0001 C CNN
+F 3 "" H 8500 -200 50  0001 C CNN
+	1    8500 -200
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0118
+U 1 1 630FBE7B
+P 8200 -200
+F 0 "#PWR0118" H 8200 -350 50  0001 C CNN
+F 1 "VCC" H 8215 -27 50  0000 C CNN
+F 2 "" H 8200 -200 50  0001 C CNN
+F 3 "" H 8200 -200 50  0001 C CNN
+	1    8200 -200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
