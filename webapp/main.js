@@ -12,12 +12,20 @@ ctx.strokeStyle = "green";
 const content = document.querySelector('.content');
 const fileSelector = document.getElementById('file-selector');
 
+var img = new Image();
+img.onload = function() {
+    ctx.drawImage(img, 20, 20);
+}
+img.src = url;
+
   fileSelector.addEventListener('change', (event) => {
     const fileList = event.target.files;
     file=fileList[0];
 
     const reader = new FileReader();
     
+    
+
 	  reader.addEventListener("load", () => {
 	    // this will then display a text file
 

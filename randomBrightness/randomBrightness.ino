@@ -1,12 +1,18 @@
+
+// lets see if this overwrites speed
+// #define NRFX_TWIM_DEFAULT_CONFIG_FREQUENCY 0xFF00000
+// #include "nrfx_twim.h"
+
+
 #include "Arduino_is31fl3733.h"
 
-
+// NRFX_TWIM_DEFAULT_CONFIG_FREQUENCY
 Arduino_is31fl3733 disp0(ADDR_GND, ADDR_GND);
 Arduino_is31fl3733 disp1(ADDR_GND, ADDR_SCL);
 Arduino_is31fl3733 disp2(ADDR_GND, ADDR_SDA);
 Arduino_is31fl3733 disp3(ADDR_GND, ADDR_VCC);
 
-Arduino_is31fl3733 disp4(ADDR_SCL, ADDR_GND);
+// Arduino_is31fl3733 disp4(ADDR_SCL, ADDR_GND);
 Arduino_is31fl3733 disp5(ADDR_SCL, ADDR_SCL);
 Arduino_is31fl3733 disp6(ADDR_SCL, ADDR_SDA);
 Arduino_is31fl3733 disp7(ADDR_SCL, ADDR_VCC);
@@ -17,20 +23,47 @@ Arduino_is31fl3733 disp10(ADDR_SDA, ADDR_SDA);
 Arduino_is31fl3733 disp11(ADDR_SDA, ADDR_VCC);
 
 Arduino_is31fl3733 disp12(ADDR_VCC, ADDR_GND);
-Arduino_is31fl3733 disp13(ADDR_VCC, ADDR_SCL);
-Arduino_is31fl3733 disp14(ADDR_VCC, ADDR_SDA);
+//Arduino_is31fl3733 disp13(ADDR_VCC, ADDR_SCL);
+//Arduino_is31fl3733 disp14(ADDR_VCC, ADDR_SDA);
+//Arduino_is31fl3733 disp14(ADDR_VCC, ADDR_VCC);
 
-#define displays 15
+
+int power_pin = 13;
+
+
+
+// double ﻿dA = 116.56505;
+
+/*
+{90,0}
+{dA-90,0}
+{dA-90,72}
+{dA-90,144}
+{dA-90,216}
+{dA-90,288}
+
+{-90,0}
+{-(dA-90),180}
+{-(dA-90),252}
+{-(dA-90),324}
+{-(dA-90),36}
+{-(dA-90),108}
+*/
+
+
+#define displays 12
 Arduino_is31fl3733 disp[displays] = {
 
   //disp0
   
-  disp0, disp1, disp2, disp3, disp4, disp5,
+  disp0, disp1, disp2, disp3, // disp4, 
+  disp5,
   disp6, disp7, disp8, 
   disp9, 
   disp10, 
    disp11, 
-   disp12, disp13 ,disp14
+   disp12, 
+// disp13 ,disp14
   };
 
 
@@ -152,15 +185,25 @@ uint8_t colors[51][3] = {
 
 void setup()
 {
+<<<<<<< Updated upstream
   Wire.begin();
   Serial.begin(115200);
   Serial.println("Starting");
+=======
+
+  pinMode (power_pin, OUTPUT);
+  digitalWrite(power_pin, LOW);
+  
+  // Wire1.setClock(100000);
+  //Serial.begin(9600);
+  //Serial.println("Starting");
+>>>>>>> Stashed changes
 
   for (uint8_t i = 0; i < displays; i++)
   {
     
     disp[i].Init();
-    disp[i].SetGCC(0x40); //was F0 but capacitors are singing
+    disp[i].SetGCC(0x20); //was F0 but capacitors are singing
 
     for (uint8_t i_cs = 0; i_cs < 16; i_cs++) {
       for (uint8_t i_sw = 0; i_sw < 12; i_sw++) {
@@ -169,14 +212,13 @@ void setup()
       }
     }
   }
-
 }
 
 void loop() {
-
+  
   for (uint8_t i = 0; i < displays; i++)
   {
-    Serial.println("let's go");
+
     //waiting for input
     uint8_t x = 0;
 
@@ -192,21 +234,20 @@ void loop() {
           disp[i].SetLEDPWM(i_cs, i_sw * 3 + 1, colors[led][1]);
           disp[i].SetLEDPWM(i_cs, i_sw * 3 + 2, colors[led][2]);
         }
-
       }
     }
   }
-  Serial.println("LEDs on");
+  
   delay(5000);
   for (uint8_t i = 0; i < displays; i++)
   { 
-    Serial.println("let's leave");
+    //Serial.println("let's leave");
     for (uint8_t i_cs = 0; i_cs < 16; i_cs++) {
       for (uint8_t i_sw = 0; i_sw < 12; i_sw++) {
         disp[i].SetLEDPWM(i_cs, i_sw, 0);
       }
     }
   }
-  Serial.println("LEDs off");
+  
   delay(2000);
 }

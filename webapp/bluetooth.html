@@ -1,0 +1,60 @@
+<!-- https://web.dev/bluetooth/ -->
+<html>
+<head>
+	<title>Bluetooth Connection</title>
+</head>
+
+<body>
+
+<button id="button">connect</button>
+	
+<pre>
+MDR-XB950N1:
+  Address:	CC:98:8B:63:0C:6F
+  Vendor ID:	0x054C
+  Product ID:	0x0BEA
+  Firmware Version:	1.0.2
+  Minor Type:	Headset
+  RSSI:	-44
+  Services:	0x800019 < HFP AVRCP A2DP ACL >
+</pre>
+
+<script>
+
+button = document.getElementById('button');
+
+	button.addEventListener('click', function(event) {
+  // Call navigator.bluetooth.requestDevice
+
+  navigator.bluetooth.requestDevice({
+  acceptAllDevices: true,
+  optionalServices: ['battery_service'] // Required to access service later.
+})
+.then(device => { console.log(device.name); /* … */ })
+.catch(error => { console.error(error); });
+
+	// navigator.bluetooth.requestDevice({ filters: [{ services: ['battery_service'] }] })
+	// .then(device => { console.log(device.name); })
+	// .catch(error => { console.error(error); });
+
+
+
+//   	navigator.bluetooth.requestDevice({ 
+//   	filters: [{ services: ['battery_service'] }] 
+//   	// filters: [{name: 'MDR-XB950N1'}]
+//   	})
+// .then(device => {
+//   // Human-readable name of the device.
+//   console.log(device.name);
+
+//   // Attempts to connect to remote GATT Server.
+//   return device.gatt.connect();
+// })
+// .then(server => { /* … */ })
+// .catch(error => { console.error(error); });
+});
+
+
+	</script>
+	</body>
+</html>

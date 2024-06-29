@@ -9,11 +9,39 @@
 </head>
 <body>
 <canvas id="canvas" width="600px" height="600px"></canvas>
+<script>
+	resCanvas = document.getElementById('canvas');
+	ctx = resCanvas.getContext('2d');
 
+	// Start a new Path
+	ctx.beginPath();
+	ctx.moveTo(300, 150);
+	ctx.lineTo(300, 300);
+	ctx.lineTo(400, 300);
+	ctx.lineTo(300, 150);
+
+	// Draw the Path
+	ctx.stroke();
+
+
+
+</script>
+<!--
 <br>
 <input type="file" id="file-selector" multiple>
 <p class="content"></p>
 
-<script src="./main.js"></script>
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+
+<script src="binary-ajax.js"></script>
+<script src="exif.js"></script>
+<script src="megapix-image.js"></script>
+<script src="./gb.js"></script>
+
+
 </body>
 </html>
+-->
