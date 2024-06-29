@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name dodecahedron_boards)(type Legacy)(uri ${KIPRJMOD}/dodecahedron_boards.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "dodecahedron_boards")(type "Legacy")(uri "${KIPRJMOD}/dodecahedron_boards.lib")(options "")(descr ""))
+  (lib (name "dodecahedron_n4-rescue")(type "KiCad")(uri "${KIPRJMOD}/dodecahedron_n4-rescue.kicad_sym")(options "")(descr ""))
 )
