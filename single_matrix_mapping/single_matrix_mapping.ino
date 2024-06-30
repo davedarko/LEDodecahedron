@@ -20,7 +20,7 @@
 //Arduino_is31fl3733 disp14(ADDR_VCC, ADDR_SDA);
 //Arduino_is31fl3733 disp15(ADDR_VCC, ADDR_VCC);
 
-Arduino_is31fl3733 pentaDisplay(ADDR_VCC, ADDR_SCL);
+Arduino_is31fl3733 pentaDisplay(ADDR_GND, ADDR_GND);
 
 unsigned long time_ms;
 unsigned long frame_ms;
@@ -128,11 +128,11 @@ void loop()
   }
 
    if (millis() - frame_ms > 10) { // 200
-    calculateNewFrameStagesColors();
+    //calculateNewFrameStagesColors();
     //calculateNewFrameStages();
-    // calculateNewFrameFillCircular();
-    drawKirby();
-    // displayFrame();
+    calculateNewFrameFillCircular();
+    //drawKirby();
+    displayFrame();
     frame_ms = millis();
     fps++;
   }

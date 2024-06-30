@@ -11,7 +11,7 @@ Arduino_is31fl3733 disp1(ADDR_GND, ADDR_SCL);
 Arduino_is31fl3733 disp2(ADDR_GND, ADDR_SDA);
 Arduino_is31fl3733 disp3(ADDR_GND, ADDR_VCC);
 
-// Arduino_is31fl3733 disp4(ADDR_SCL, ADDR_GND);
+Arduino_is31fl3733 disp4(ADDR_SCL, ADDR_GND);
 Arduino_is31fl3733 disp5(ADDR_SCL, ADDR_SCL);
 Arduino_is31fl3733 disp6(ADDR_SCL, ADDR_SDA);
 Arduino_is31fl3733 disp7(ADDR_SCL, ADDR_VCC);
@@ -21,7 +21,7 @@ Arduino_is31fl3733 disp9(ADDR_SDA, ADDR_SCL);
 Arduino_is31fl3733 disp10(ADDR_SDA, ADDR_SDA);
 Arduino_is31fl3733 disp11(ADDR_SDA, ADDR_VCC);
 
-Arduino_is31fl3733 disp12(ADDR_VCC, ADDR_GND);
+//Arduino_is31fl3733 disp12(ADDR_VCC, ADDR_GND);
 //Arduino_is31fl3733 disp13(ADDR_VCC, ADDR_SCL);
 //Arduino_is31fl3733 disp14(ADDR_VCC, ADDR_SDA);
 //Arduino_is31fl3733 disp14(ADDR_VCC, ADDR_VCC);
@@ -31,8 +31,8 @@ Arduino_is31fl3733 disp12(ADDR_VCC, ADDR_GND);
 
 Arduino_is31fl3733 disp[displays] = {
   disp0,  disp1,  disp2,  disp3,
-  disp5,  disp6,  disp7,  disp8,
-  disp9, disp10, disp11, disp12
+  disp4,  disp5,  disp6,  disp7,
+  disp8, disp9, disp10, disp11
 };
 
 

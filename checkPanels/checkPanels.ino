@@ -61,7 +61,7 @@ Arduino_is31fl3733 disp[displays] = {
   disp6, disp7, disp8, 
   disp9, 
   disp10, 
-   disp12, 
+   disp11, 
    //disp12, 
 // disp13 ,disp14
   };

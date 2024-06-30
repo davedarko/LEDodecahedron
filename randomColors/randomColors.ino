@@ -163,20 +163,38 @@ uint8_t green[192];
 uint8_t blue[192];
 uint8_t purple[192];
 
-uint8_t colorsForMatrix[12][3] = {
-  {255,0,0}, // red
-  {127,127,0}, // yellow
-  {127,32,0}, // orange
-  {0,255,0}, // green
-  {0,0,255}, // blue
-  {64,0,127}, // purple
+uint8_t colorsRainbowForMatrix[12][3] = {
+  {255,   0,   0}, // red
+  {255, 127,   0}, // yellow
+  {127, 127,   0}, // yellow
+  {127, 255,   0}, // green
+  {  0, 255,   0}, // green
+  {  0, 255, 127}, // tuerkis
+  
+  {  0, 127, 127}, // tuerkis
+  {  0, 127, 255}, // tuerkis
+  {  0,   0, 255}, // tuerkis
+  {127,   0, 255}, // blue
+  {127,   0, 127}, // pink
+  {255,   0, 127}, // pink
+};
 
-    {255,0,0}, // red
-  {127,127,0}, // yellow
-  {127,32,0}, // orange
-  {0,255,0}, // green
-  {0,0,255}, // blue
-  {64,0,127}, // purple
+uint8_t colorsForMatrix[12][3] = {
+  { 255, 255, 255},
+  { 127,   0, 127},
+  {  32,   0,  16},
+  {   0,   0,   0},
+  {   0,   0,   0},
+  {   0,   0,   0},
+  {   0,   0,   0},
+  
+  {   0,   0,   0},
+  {   0,   0,   0},
+  {   0,   0,   0},
+  {   0,   0,   0},
+  {   0,   0,   0},
+  
+  
 };
 
 uint8_t matrixColors[12][192];
@@ -207,21 +225,6 @@ void setup()
         matrixColors[j][k*48+i+0] = colorsForMatrix[j][0];
         matrixColors[j][k*48+i+16] = colorsForMatrix[j][1];
         matrixColors[j][k*48+i+32] = colorsForMatrix[j][2];
-
-        if (!j>0) {
-          Serial.print(k*48+i+0);
-          Serial.print(" ");
-          Serial.print(colorsForMatrix[j][0]);
-          Serial.println(" ");
-          Serial.print(k*48+i+16);
-          Serial.print(" ");
-          Serial.print(colorsForMatrix[j][1]);
-          Serial.println(" ");
-          Serial.print(k*48+i+32);
-          Serial.print(" ");
-          Serial.print(colorsForMatrix[j][2]);
-          Serial.println(" ");
-        }
       }
     }
   }
@@ -240,6 +243,8 @@ void setup()
 
 
 uint8_t fps = 0;
+uint8_t offset = 0;
+
 void loop() {
   
   if (millis() - myTime > 1000)
@@ -252,23 +257,11 @@ void loop() {
   
   for (uint8_t i = 0; i < displays; i++)
   {
-    // disp[i].SetPWM(randomColors);
-    disp[i].SetPWM(matrixColors[i]);
-    
+    disp[i].SetPWM(matrixColors[(i+offset)%12]);
   }
-
-//  for (uint8_t i=0; i<192; i++){
-//    randomColors[i] = random(255);
-//  }
-
+  
   fps++;
-//  Serial.println("LEDs on");
-//  delay(5000);
-//
-//  for (uint8_t i = 0; i < displays; i++)
-//  {
-//    disp[i].SetPWM(black);
-//  }
-//  Serial.println("LEDs off");
-//  delay(2000);
+  offset++;
+  if (offset > 12) offset = 0;
+
 }

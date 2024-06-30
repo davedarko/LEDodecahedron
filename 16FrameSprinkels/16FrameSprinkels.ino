@@ -30,8 +30,8 @@ Arduino_is31fl3733 disp[displays] = {
   disp6, disp7, disp8,
   disp9,
   disp10,
-  //disp11,
-  disp13
+  disp11
+  
   // disp12,
   // disp13 ,disp14
 };
@@ -45,13 +45,14 @@ uint8_t fps = 0;
 
 void setup()
 {
-
+  
   Serial.begin(115200);  // start Serial for output
-
+   
+  
   for (uint8_t i = 0; i < displays; i++)
   {
     disp[i].Init();
-    disp[i].SetGCC(0x30);
+    disp[i].SetGCC(0x18);
 
     for (uint8_t i_cs = 0; i_cs < IS31FL3733_CS; i_cs++) {
       for (uint8_t i_sw = 0; i_sw < IS31FL3733_SW; i_sw++) {
@@ -61,6 +62,7 @@ void setup()
     }
   }
   time_ms = millis();
+
 }
 
 void loop()
@@ -68,7 +70,13 @@ void loop()
   if (millis() - time_ms > 1000)
   {
     Serial.print("fps: ");
-    Serial.println(fps);
+    Serial.print(fps);
+    Serial.print(" - ");
+    Serial.print(millis() - time_ms);
+    Serial.print(" - ");
+    Serial.print((millis() - time_ms)/fps);
+    Serial.println("ms");
+    
 
     fps = 0;
     time_ms = millis();
@@ -90,6 +98,7 @@ void loop()
 }
 
 void calculateNewFrame() {
+  
   for (uint8_t d = 0; d < displays; d++)
   for (uint8_t i = 0; i < 192; i++)
   {

@@ -22,10 +22,10 @@ Arduino_is31fl3733 disp11(ADDR_SDA, ADDR_VCC);
 
 Arduino_is31fl3733 pentaDisplay(ADDR_VCC, ADDR_GND);
 
-#define displays 6
+#define displays 12
 Arduino_is31fl3733 disp[displays] = {
   disp0, disp1, disp2, disp3, disp4, disp5, 
-  // disp6, disp7, disp8, disp9, disp10, disp11
+  disp6, disp7, disp8, disp9, disp10, disp11
 };
 
 unsigned long time_ms;
@@ -131,7 +131,6 @@ void loop()
   {
     Serial.print("fps: ");
     Serial.println(fps);
-    Serial.println();
 
     fps = 0;
     time_ms = millis();
@@ -139,13 +138,13 @@ void loop()
 
 //   if (millis() - frame_ms > 30) { // 200
     // calculateNewFrameStagesColors();
-    // calculateNewFrameStages();
+     calculateNewFrameStages();
     // calculateNewFrameFillCircular();
     // drawKirby();
     // displayFrame();
 
 //    calculateNewFrameStagesColorsMulti();
-    drawKirby();
+//    drawKirby();
     displaySingleFrameMulti();
     
     // displayFrameMulti();

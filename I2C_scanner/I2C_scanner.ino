@@ -32,9 +32,9 @@
 
 void setup()
 {
-  Wire1.begin();
+  Wire.begin();
 
-  Serial.begin(9600);
+  Serial.begin(115200);
   while (!Serial);             // Leonardo: wait for serial monitor
   Serial.println("\nI2C Scanner");
 }
@@ -53,8 +53,8 @@ void loop()
     // The i2c_scanner uses the return value of
     // the Write.endTransmisstion to see if
     // a device did acknowledge to the address.
-    Wire1.beginTransmission(address);
-    error = Wire1.endTransmission();
+    Wire.beginTransmission(address);
+    error = Wire.endTransmission();
 
     if (error == 0)
     {
